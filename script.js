@@ -1,3 +1,4 @@
+
 const search = document.getElementById('search');
 search.addEventListener('click', function () {
     const foodName = document.getElementById('foodInput').value;
@@ -43,19 +44,16 @@ let handleFoodClick = foodId => {
             <br>
             <h1>Category: ${ data.meals[0].strCategory }</h1>
             <br>
-            <h3>📌 ${ data.meals[0].strMeasure1 }</h3>
-            <h3>📌 ${ data.meals[0].strMeasure2 }</h3>
-            <h3>📌 ${ data.meals[0].strMeasure3 }</h3>
-            <h3>📌 ${ data.meals[0].strMeasure4 }</h3>
-            <h3>📌 ${ data.meals[0].strMeasure5 }</h3>
-            <h3>📌 ${ data.meals[0].strMeasure6 }</h3>
+            <h3>1. ${ data.meals[0].strMeasure1 }</h3>
+            <h3>2. ${ data.meals[0].strMeasure2 }</h3>
+            <h3>3. ${ data.meals[0].strMeasure3 }</h3>
+            <h3>4. ${ data.meals[0].strMeasure4 }</h3>
+            <h3>5. ${ data.meals[0].strMeasure5 }</h3>
+            <h3>6. ${ data.meals[0].strMeasure6 }</h3>
 
-
-           
+            
             `;
             foodDetails.className = "food-details";
             foodData.appendChild(foodDetails);
         })
 }
-
-
