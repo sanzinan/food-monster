@@ -1,64 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+.bg-color  {
+    background-color: cyan;
+    padding: 20px;
+    margin: 20px;
+}
 
-body {
+
+h1{
+    color: red;
+}
+.navItem h5{
+    margin-left: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.searchBar{
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+ header{
+
+    top: 50px;
+    padding: 15px;
+    border-radius: 30px;
+
+}
+
+.searchItems{
+    /*display: flex;*/
+    justify-content: center;
+    
+    
+}
+
+ .item{
+    background-color: violet;
+    border-radius: 40px;
+    margin: 20px 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    
+
+    transition: width 0.3s linear 0.1s , background-color 0.5s ;
+}
+
+.item:hover{
+     width: 31%;
+     background-color:rgb(243, 67, 3);
+}
+
+
+ .item img{
+    width: 100%;
+    border-radius:20px;
+}
+.item h4{
+    font-family: 'Eczar', serif;
+
+}
+
+/*full-Description  */
+
+.full-Description{
     background-color: orange;
-    font-family: 'Oswald', sans-serif;
-}
-.main-menu li a {
-    font-size: 22px;
-    color: black;
-}
-
-.main-menu li {
-    padding: 5px;
-}
-
-.logo {
-    font-size: 30px;
-    color: black;
-}
-input#foodInput {
-    font-size: 25px;
-}
-
-button#search {
-    font-size: 25px;
-}
-.card{
-    width: 300px;
-    border-radius: 20px;
-    margin: 5px;
-    font-size: 15px;
-}
-.card h1{
-    font-size: 25px;
-    padding: 15px 5px;
-    text-align: center;
-}
-.card img{
-    border-radius: 20px 20px 0px 0px;
-}
-#foodsData{
-    text-align: center;
-    background-color: rgb(255, 238, 221);
-    border-radius: 30px;
-    padding: 20px 0px;
-    display: none;
-}
-.food-details img {
-    width: 60%;
-    border-radius: 30px;
-}
-.food-details h1{
-    padding: 5px 0px;
-    font-size: 30px;
-}
-.food-details h3{
-    padding: 3px 0px;
-    font-size: 25px;
-    text-align: left;
-}
-.food-details{
-    width: 50%;
+    border-radius: 40px;
+    width: 90%;
+    padding: 40px;
     margin: 0 auto;
+    display:none;
+
+   
 }
+.imageAnd-name img{
+    width: 70%;
+     border-radius: 30px;
+ }
+.imageAnd-name h1{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+
+}
+
+ .Ingredient h3{
+     width: 40%;
+     margin-left: 70px;
+    font-family: 'Merriweather', serif;
+
+ }
+ .Ingredient li{
+   width: 60%;
+    margin-left: 80px;
+    margin-top: 10px;
+    font-family:  serif;
+ }
+ 
+ #warning1{
+     display:none;
+ }
+ #warning2{
+     display:none;
+ }
