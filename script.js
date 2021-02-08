@@ -94,8 +94,7 @@ let details = (fullData) => {
 
 
 
-
-	let potIngredient = [
+    let potIngredient = [
 		fullData.strMeasure1 + fullData.strIngredient1,
 		fullData.strMeasure2 + fullData.strIngredient2,
 		fullData.strMeasure3 + fullData.strIngredient3,
